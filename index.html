@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b4e7666df61c4c2db8d8e9a069a94d7e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b4e7666df61c4c2db8d8e9a069a94d7e" ></div>
+        
+</body>
+<script>    
+    
+            var map_b4e7666df61c4c2db8d8e9a069a94d7e = L.map(
+                "map_b4e7666df61c4c2db8d8e9a069a94d7e",
+                {
+                    center: [53.9006, 27.559],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_75ebec30c5e1495e964591e22f24048c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b4e7666df61c4c2db8d8e9a069a94d7e);
+        
+    
+            var marker_2b01ba1d119b4592b0b67e09ec3fd148 = L.marker(
+                [53.9006, 27.559],
+                {}
+            ).addTo(map_b4e7666df61c4c2db8d8e9a069a94d7e);
+        
+    
+            var marker_6200415fb61a49949a2fd4353be60d21 = L.marker(
+                [53.9006, 27.559],
+                {}
+            ).addTo(map_b4e7666df61c4c2db8d8e9a069a94d7e);
+        
+    
+            var marker_6838ce1f6097462496122a9af1276d92 = L.marker(
+                [53.9006, 27.559],
+                {}
+            ).addTo(map_b4e7666df61c4c2db8d8e9a069a94d7e);
+        
+    
+        var popup_8ddad1a9b2f3439eb0f88d2ade44c63f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fa9f73134294d12b73f07b4943c4505 = $(`<div id="html_7fa9f73134294d12b73f07b4943c4505" style="width: 100.0%; height: 100.0%;">Go to eat draniki!</div>`)[0];
+            popup_8ddad1a9b2f3439eb0f88d2ade44c63f.setContent(html_7fa9f73134294d12b73f07b4943c4505);
+        
+
+        marker_6838ce1f6097462496122a9af1276d92.bindPopup(popup_8ddad1a9b2f3439eb0f88d2ade44c63f)
+        ;
+
+        
+    
+</script>
